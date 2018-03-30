@@ -351,7 +351,7 @@ private:
   */
   UserdataValue ()
   {
-    m_p = getObject ();
+    m_p = (void*)getObject ();
   }
 
   ~UserdataValue ()
